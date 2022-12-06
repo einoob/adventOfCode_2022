@@ -7,7 +7,7 @@ const areAllCharactersDifferent = (input, i, length) => {
 
 const getPositionOfTheSequence = (input) => {
   let startOfPacketMarker = 4;
-  let startOfMessageMarker = 13;
+  let startOfMessageMarker = 14;
 
   for (let i = 3; i < input.length; i++) {
     if (areAllCharactersDifferent(input, i, 4)) {
